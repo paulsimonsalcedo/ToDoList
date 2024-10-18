@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&display=swap');
+body{
+    padding: 10px;
+}
+.menu{
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    padding: 10px;
+    min-height: 100vh;
+}
+.menu h4{
+    font-family: 'poppins', sans-serif;
+}
+.tasks{
+    margin-top: 50px;
+}
+.tasks h5,.categories h5{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 15px;
+}
+.tasks-items, .category-items{
+    margin-left: 15px;
+    display: flex;
+}
+.edittask-item-container i{
+padding-top: 2px;
+}
+.tasks-items p , .category-items p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.tasks-items i{
+    margin-top: 7px;
+}
+.category-items i{
+    margin-top: 7px;
+}
+.title-header{
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+}
+.title-header i{
+    font-size: 30px;
+    padding: 4px 10px 0px 0px;
+}
+.title-header p{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.todos{
+    min-height: 100vh;
+}
+.addTodos{
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    padding: 10px;
+    min-height: 100vh;
+}
+.addTodos h5{
+    font-family: 'poppins', sans-serif;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: rgb(187, 186, 186);
+}
+.edit-category-icon{
+    cursor: pointer;
+    color: rgb(12, 12, 216);
+}
+.delete-category-icon{
+    color: rgb(235, 54, 22);
+    margin-right: 15px;
+    cursor: pointer;
+}
+#daterange{
+    cursor: pointer;
+}
+
+.tasks-items .active{
+    text-decoration: underline;
+}
+.card i{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icons .edit-con:hover{
+    color: blue;
+    font-size: 20px;
+    transition: .1s;
+}
+.icons .trash-con:hover{
+    color: rgb(240, 48, 14);
+    font-size: 20px;
+    transition: .1s;
+}
+.icons .check-con:hover{
+    color: rgba(13, 238, 133, 0.788);
+    font-size: 20px;
+    transition: .1s;
+}
+.additem{
+    width: 150px;
+}
+.add-items{
+    display: block;
+}
+.desc{
+    margin-top: 20px;
+}
+
+.custom-table {
+            background-color: #f8f9fa;
+        }
+        .custom-table th {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+        .custom-table tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+        .custom-table tr:hover {
+            background-color: #d1d7e0;
+        }
+        .category-list .toggle.active{
+            text-decoration: underline;
+        }
+        .showCompletedItems
+        {
+            font-family: 'poppins', sans-serif;
+            font-size: 15px;
+        }
